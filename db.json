@@ -1,0 +1,33 @@
+{
+    "courses":
+    [
+        {
+            "id":1,
+            "category":"all",
+            "title": "Basics of English",
+            "duration": 3.45,
+            "price": 100
+        },
+        {
+            "id":2,
+            "category":"3",
+            "title": "Past perfect",
+            "duration": 1.45,
+            "price": 60
+        },
+        {
+            "id":3,
+            "category":"2",
+            "title": "Present simple",
+            "duration": 1.0,
+            "price": 100
+        },
+        {
+            "id":4,
+            "category":"1",
+            "title": "Past simple",
+            "duration": 0.45,
+            "price": 60
+        }
+    ]
+}
