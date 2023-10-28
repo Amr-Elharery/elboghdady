@@ -1,16 +1,20 @@
 import './Layout.css';
 import Header from '../Header/Header';
+import Sidebar from '../Sidebar/Sidebar';
 
 function Layout({children}) {
+
+
   return (
     <div>
-      <Header />
       <section className='flex-row gap-10'>
-        <aside>
-          sidebar
-        </aside>
+        <Sidebar />
+        <div className='content flex-column w-full'>
+          <Header />
+        
+          {children}
 
-        {children}
+        </div>
       </section>
     </div>
   )
