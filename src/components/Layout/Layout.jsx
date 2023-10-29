@@ -1,8 +1,9 @@
 import './Layout.css';
 import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
+import {Outlet} from "react-router-dom";
 
-function Layout({children}) {
+function Layout() {
 
 
   return (
@@ -12,7 +13,9 @@ function Layout({children}) {
         <div className='content flex-column w-full'>
           <Header />
         
-          {children}
+          {
+              <Outlet />
+          }
 
         </div>
       </section>

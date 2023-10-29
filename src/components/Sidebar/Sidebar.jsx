@@ -22,10 +22,10 @@ function Sidebar() {
 
 				<ul className="linksList flex-column gap-10">
 					{
-						links.map(link => (
+						links.map((link) => (
 							<li key={link}>
-								<a
-									href={`/${link.toLowerCase()}`}
+								<Link
+									to={link.toLowerCase()}
 									className="c-white flex-row"
 									>
 										{
@@ -44,7 +44,7 @@ function Sidebar() {
 									<span className="hide-mobile">
 										{link}
 									</span>
-								</a>
+								</Link>
 							</li>
 						))
 					}

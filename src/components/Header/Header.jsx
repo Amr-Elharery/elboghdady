@@ -1,10 +1,13 @@
 import './Header.css';
+import {Link} from "react-router-dom";
 
 function Header() {
   return (
     <header className='p-10 flex-row flex-between'>
         <h2>
-          El-Boghdady
+          <Link to='/' >
+              El-Boghdady
+          </Link>
         </h2>
 
         <h1>E</h1>
