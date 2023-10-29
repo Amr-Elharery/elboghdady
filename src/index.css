@@ -180,6 +180,13 @@ img {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
+.rad-full {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 
 /* BackGournd - Color */
 .bg-primary {
@@ -346,12 +353,16 @@ img {
   text-align: center;
 }
 
-/* Width */
+/* Dimensioal */
 .w-full {
   width: 100%;
 }
 .w-fit {
   width: fit-content;
+}
+
+.h-100vh {
+  min-height: 100vh;
 }
 
 /* Cursor */
