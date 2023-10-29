@@ -9,19 +9,19 @@ function App() {
       element: <div>Hello Home</div>,
     },
     {
-      path: "/news",
+      path: "news",
       element: <div>Hello News</div>,
     },
     {
-      path: "/videos",
+      path: "videos",
       element: <div>Hello Videos</div>,
     },
     {
-      path: "/lectures",
+      path: "lectures",
       element: <div>Hello Lectures</div>,
     },
     {
-      path: "/exams",
+      path: "exams",
       element: <div>Hello Exams</div>,
     },
   ]);
