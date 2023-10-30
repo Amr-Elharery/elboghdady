@@ -2,7 +2,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import "./App.css";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
-import News from "./components/News/News";
 import Home from "./components/Home/Home";
 
 function App() {
@@ -36,6 +35,11 @@ function App() {
         {
           path: "exams",
           element: <div>Hello Exams</div>,
+          errorElement: <ErrorPage />
+        },,
+        {
+          path: "questions",
+          element: <div>Hello Questions</div>,
           errorElement: <ErrorPage />
         },
       ]

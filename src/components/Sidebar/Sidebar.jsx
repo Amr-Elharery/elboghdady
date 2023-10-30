@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import User from '../../assets/imgs/user-1.jpg';
 import {FaBookOpen, FaNewspaper, FaPen, FaUser, FaVideo} from 'react-icons/fa';
+import {AiFillQuestionCircle} from 'react-icons/ai';
 
 import './Sidebar.css';
 
@@ -9,7 +10,8 @@ function Sidebar() {
 		"News",
 		"Videos",
 		"Lectures",
-		"Exams"
+		"Questions",
+		"Exams",
 	]
 
   return (
@@ -38,7 +40,7 @@ function Sidebar() {
 									<FaBookOpen /> :
 									link === "Exams" ? 
 									<FaPen />:
-									null
+									<AiFillQuestionCircle />
 									
 								}
 									<span className="hide-mobile">

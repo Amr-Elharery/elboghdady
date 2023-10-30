@@ -1,4 +1,31 @@
 {
+    "news": [
+        {
+            "id": 1,
+            "new": "The registration for new year is opened",
+            "date": "30 / 9 / 2023"
+        },
+        {
+            "id": 2,
+            "new": "The start will be on next saturday",
+            "date": "1 / 10 / 2023"
+        },
+        {
+            "id": 3,
+            "new": "The month exam for October 2023 is on 31 Oct during 11:00am and 11:00pmm you can start your exam any time in this period",
+            "date": "29 / 10 / 2023"
+        },
+        {
+            "id": 4,
+            "new": "The month exam result will be available tonight ISA",
+            "date": "2 / 11 / 2023"
+        },
+        {
+            "id": 5,
+            "new": "Today lectures will be online(live) at 7:00pm",
+            "date": "7 / 11 / 2023"
+        }
+    ],
     "courses":
     [
         {
@@ -6,28 +33,90 @@
             "category":"all",
             "title": "Basics of English",
             "duration": 3.45,
-            "price": 100
+            "price": 100,
+            "image": "course-1.jpg"
         },
         {
             "id":2,
             "category":"3",
             "title": "Past perfect",
             "duration": 1.45,
-            "price": 60
+            "price": 60,
+            "image": "news-01.jpg"
+
         },
         {
             "id":3,
             "category":"2",
-            "title": "Present simple",
+            "title": "Past Continuous",
             "duration": 1.0,
-            "price": 100
+            "price": 50,
+            "image": "news-02.jpg"
+
         },
         {
             "id":4,
             "category":"1",
             "title": "Past simple",
             "duration": 0.45,
-            "price": 60
+            "price": 40,
+            "image": "course-2.jpg"
+
+        },
+        {
+            "id":5,
+            "category":"1",
+            "title": "Present simple",
+            "duration": 0.50,
+            "price": 40,
+            "image": "news-03.jpg"
+
+        },
+        {
+            "id":6,
+            "category":"3",
+            "title": "Present perfect",
+            "duration": 1.50,
+            "price": 60,
+            "image": "news-04.jpg"
+
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is material is included in month exam ?",
+            "answer": "Chapter one only",
+            "assistant": "Ahmed Zaki",
+            "author": "Mohamed Tamer",
+            "date": "30 / 10 / 2023"
+        },
+        {
+            "id": 2,
+            "question": "What is difference between past simple and past perfect ?",
+            "answer": "Watch second video in chapter two",
+            "assistant": "Saif Shady",
+            "author": "Ashraf Mohamed",
+            "date": "5 / 11 / 2023"
+        },
+        {
+            "id": 2,
+            "question": "What is rule of if condition ?",
+            "answer": "Watch third video in chapter one",
+            "assistant": "Ahmed Zaki",
+            "author": "Kareem Mohamed",
+            "date": "7 / 11 / 2023"
+        }
+    ],
+    "exams": [
+        {
+            "id": 1,
+            "date": "31 / 10 / 2023",
+            "title": "October exam",
+            "totalMarks": 60,
+            "userMarks": 50,
+            "userName": "Amr Tamer",
+            "notes": "Study rule of past perfect well."
         }
     ]
 }

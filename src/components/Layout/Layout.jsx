@@ -4,8 +4,6 @@ import Sidebar from '../Sidebar/Sidebar';
 import {Outlet} from "react-router-dom";
 
 function Layout() {
-
-
   return (
     <div>
       <section className='flex-row gap-10'>
