@@ -16,6 +16,7 @@ aside {
 .userHeading {
   position: relative;
   padding: 5px;
+  margin-top: 10px;
   border-radius: 4px;
   transition: 0.3s 0.1s;
   -webkit-transition: 0.3s 0.1s;
@@ -84,13 +85,12 @@ aside {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-
 .linksList li a {
-  gap: 3px;
+  position: relative;
+  gap: 4px;
+  margin-bottom: 5px;
   padding: 4px 6px;
-  border-radius: 4px;
-  transition: var(--amr-transition);
-  -webkit-border-radius: 4px;
+  border-radius: 4px 0 0 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
@@ -100,6 +100,27 @@ aside {
   -o-transition: var(--amr-transition);
 }
 
+.linksList li a::before,
+.linksList li a::after{
+  content: '';
+  position: absolute;
+  right: -10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50% 0 0 50%;
+  transition: var(--amr-transition);
+}
+.linksList li a::before{
+  top: -2px;
+}
+.linksList li a::after{
+  bottom: -2px;
+}
+
+.linksList li a:hover::before,
+.linksList li a:hover::after {
+  background-color: #fff;
+}
 .linksList li a:hover {
   background-color: #fff;
   color: var(--amr-primary);

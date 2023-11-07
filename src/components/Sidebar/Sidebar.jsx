@@ -15,20 +15,20 @@ function Sidebar() {
 	]
 
   return (
-    <aside className='bg-primary c-white p- h-100vh p-10 flex-column flex-between'>
+    <aside className='bg-primary c-white h-100vh flex-column flex-between'>
         <h3 className="userHeading fs-20">
 					Amr Tamer
 				</h3>
 
 				<FaUser className="userIcon"/>
 
-				<ul className="linksList flex-column gap-10">
+				<ul className="linksList flex-column gap-10 w-full">
 					{
 						links.map((link) => (
-							<li key={link}>
+							<li key={link} >
 								<Link
 									to={link.toLowerCase()}
-									className="c-white flex-row"
+									className="c-white flex-row flex-center"
 									>
 										{
 									link === "News" ?
