@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import User from '../../assets/imgs/user-1.jpg';
 import {FaBookOpen, FaNewspaper, FaPen, FaUser, FaVideo} from 'react-icons/fa';
 import {AiFillQuestionCircle} from 'react-icons/ai';
 
 import './Sidebar.css';
+import UserImage from "../UserImage/UserImage";
 
 function Sidebar() {
 	const links = [
@@ -54,7 +54,7 @@ function Sidebar() {
 
 
 				<div className="img mb-10">
-						<img src={User} alt="user" className="userImg" />
+						<UserImage />
 				</div>
   </aside>
   )

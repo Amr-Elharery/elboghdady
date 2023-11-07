@@ -1,0 +1,7 @@
+.header-searchbar{
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 10px;
+    flex: 1;
+    margin-inline: 10px;
+}
