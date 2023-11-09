@@ -25,11 +25,14 @@ function Sidebar() {
 				<ul className="linksList flex-column gap-10 w-full">
 					{
 						links.map((link) => (
-							<li key={link} >
+							<li key={link}>
 								<Link
 									to={link.toLowerCase()}
-									className="c-white flex-row flex-center"
+									className="c-white flex-row flex-between "
 									>
+									<span className="hide-mobile">
+										{link}
+									</span>
 										{
 									link === "News" ?
 									<FaNewspaper />
@@ -43,9 +46,7 @@ function Sidebar() {
 									<AiFillQuestionCircle />
 									
 								}
-									<span className="hide-mobile">
-										{link}
-									</span>
+
 								</Link>
 							</li>
 						))

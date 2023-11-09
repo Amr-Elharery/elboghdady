@@ -1,0 +1,8 @@
+header{
+    gap: 30px;
+}
+@media (width >= 767px){
+    header{
+        gap: 100px;
+    }
+}

@@ -91,12 +91,10 @@ img {
 .flex-row {
   display: flex;
   flex-direction: row;
-  gap: 10px;
 }
 .flex-column {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .flex-center {
@@ -353,7 +351,7 @@ img {
   text-align: center;
 }
 
-/* Dimensioal */
+/* Dimensions */
 .w-full {
   width: 100%;
 }
