@@ -9,12 +9,8 @@ function Layout() {
       <section className='flex-row gap-10'>
         <Sidebar />
         <div className='content flex-column w-full'>
-          <Header />
-        
-          {
-              <Outlet />
-          }
-
+            <Header />
+            <Outlet />
         </div>
       </section>
     </div>

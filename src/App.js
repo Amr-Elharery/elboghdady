@@ -36,7 +36,7 @@ function App() {
           path: "exams",
           element: <div>Hello Exams</div>,
           errorElement: <ErrorPage />
-        },,
+        },
         {
           path: "questions",
           element: <div>Hello Questions</div>,
