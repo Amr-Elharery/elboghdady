@@ -1,7 +1,8 @@
+import PageHeading from '../PageHeading/PageHeading';
 export default function Home(){
     return (
         <div>
-            Hello Home
+            <PageHeading />
         </div>
     )
 }
