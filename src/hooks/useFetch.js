@@ -37,6 +37,4 @@ export default function useFetch (endpoint){
 
     return {data, isLoading, error, reFetch};
 
-
-
 }

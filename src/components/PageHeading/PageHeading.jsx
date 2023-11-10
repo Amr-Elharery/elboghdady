@@ -1,9 +1,9 @@
-import 'PageHeading.css';
+import './PageHeading.css';
 
 const PageHeading = ({text}) => (
-    <h2 className="pageHeading">
+    <h1 className="pageHeading c-primary">
         {text}
-    </h2>
+    </h1>
 )
 
 export default PageHeading;

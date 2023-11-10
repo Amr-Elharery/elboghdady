@@ -6,7 +6,7 @@ import {Outlet} from "react-router-dom";
 function Layout() {
   return (
     <div>
-      <section className='flex-row gap-10'>
+      <section className='flex-row'>
         <Sidebar />
         <div className='content flex-column w-full'>
             <Header />

@@ -11,6 +11,8 @@
 /* Styling */
 aside {
   width: 180px;
+  align-items: center;
+  gap: 200px;
 }
 
 .userHeading {

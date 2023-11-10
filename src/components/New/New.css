@@ -1,0 +1,23 @@
+.new{
+    flex:1 1 100%;
+    background-color: #d1ecf1;
+    padding: 30px 15px;
+    border-radius: 6px;
+    color: #0c5460;
+    position: relative;
+}
+
+.newId{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 12px;
+    opacity: .7;
+}
+.newDate{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 14px;
+    opacity: .7;
+}

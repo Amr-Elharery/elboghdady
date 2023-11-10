@@ -15,7 +15,7 @@ function Sidebar() {
 	]
 
   return (
-    <aside className='bg-primary c-white h-100vh flex-column flex-between'>
+    <aside className='bg-primary c-white h-100vh flex-column'>
         <h3 className="userHeading fs-20">
 					Amr Tamer
 				</h3>
@@ -34,7 +34,7 @@ function Sidebar() {
 										{link}
 									</span>
 										{
-									link === "News" ?
+									link === "New" ?
 									<FaNewspaper />
 									:
 									link === "Videos" ?
