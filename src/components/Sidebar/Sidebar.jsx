@@ -27,7 +27,7 @@ function Sidebar() {
 							<li key={link}>
 								<Link
 									to={link.toLowerCase()}
-									className="c-white flex-row flex-between "
+									className="c-white "
 									>
 									<span className="hide-mobile">
 										{link}

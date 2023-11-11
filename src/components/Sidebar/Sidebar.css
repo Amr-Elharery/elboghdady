@@ -80,6 +80,9 @@ aside {
 }
 
 .linksList li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
   gap: 4px;
   margin-bottom: 5px;
@@ -94,6 +97,11 @@ aside {
   -o-transition: var(--amr-transition);
 }
 
+@media(width <= 768px){
+  .linksList li a {
+    justify-content: center;
+  }
+}
 .linksList li a::before,
 .linksList li a::after{
   content: '';
