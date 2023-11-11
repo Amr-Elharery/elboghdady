@@ -8,8 +8,7 @@ import UserImage from "../UserImage/UserImage";
 function Sidebar() {
 	const links = [
 		"News",
-		"Videos",
-		"Lectures",
+		"Courses",
 		"Questions",
 		"Exams",
 	]
@@ -37,7 +36,7 @@ function Sidebar() {
 									link === "New" ?
 									<FaNewspaper />
 									:
-									link === "Videos" ?
+									link === "Courses" ?
 									<FaVideo />:
 									link === "Lectures" ?
 									<FaBookOpen /> :

@@ -16,7 +16,7 @@
     margin-bottom: 50px;
 }
 .pageHeading:hover{
-    color: #fff;
+    color: var(--amr-dark);
 }
 .pageHeading::before{
     content: '';
@@ -30,20 +30,4 @@
 }
 .pageHeading:hover::before{
     width: 100%;
-}
-.pageHeading::after{
-    content: '';
-    position: absolute;
-    left: -120%;
-    width: calc(100% + 10px);
-    height:calc(100% + 10px);
-    background-color: var(--amr-primary);
-    transition:var(--amr-transition) ease-in;
-    border-radius: 4px;
-    z-index: -1;
-
-}
-.pageHeading:hover::after{
-    left: -5px;
-    top:-5px;
 }

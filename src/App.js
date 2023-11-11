@@ -3,6 +3,7 @@ import Layout from "./components/Layout/Layout";
 import "./App.css";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Home from "./components/Home/Home";
+import Courses from "./components/Courses/Courses";
 
 function App() {
   const router = createBrowserRouter([
@@ -23,13 +24,8 @@ function App() {
           errorElement: <ErrorPage />
         },
         {
-          path: "videos",
-          element: <div>Hello Videos</div>,
-          errorElement: <ErrorPage />
-        },
-        {
-          path: "lectures",
-          element: <div>Hello Lectures</div>,
+          path: "courses",
+          element: <Courses />,
           errorElement: <ErrorPage />
         },
         {
