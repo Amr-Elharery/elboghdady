@@ -4,6 +4,7 @@ import "./App.css";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Home from "./components/Home/Home";
 import Courses from "./components/Courses/Courses";
+import Exams from "./components/Exams/Exams";
 
 function App() {
   const router = createBrowserRouter([
@@ -30,7 +31,7 @@ function App() {
         },
         {
           path: "exams",
-          element: <div>Hello Exams</div>,
+          element: <Exams />,
           errorElement: <ErrorPage />
         },
         {
