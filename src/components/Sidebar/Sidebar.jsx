@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import {FaBookOpen, FaNewspaper, FaPen, FaUser, FaVideo} from 'react-icons/fa';
+import { FaPen, FaUser, FaVideo} from 'react-icons/fa';
 import {AiFillQuestionCircle} from 'react-icons/ai';
 
 import './Sidebar.css';
 import UserImage from "../UserImage/UserImage";
+import {BsNewspaper} from "react-icons/bs";
 
 function Sidebar() {
 	const links = [
@@ -33,13 +34,11 @@ function Sidebar() {
 										{link}
 									</span>
 										{
-									link === "New" ?
-									<FaNewspaper />
+									link === "News" ?
+									<BsNewspaper />
 									:
 									link === "Courses" ?
 									<FaVideo />:
-									link === "Lectures" ?
-									<FaBookOpen /> :
 									link === "Exams" ? 
 									<FaPen />:
 									<AiFillQuestionCircle />
