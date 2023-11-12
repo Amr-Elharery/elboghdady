@@ -4,6 +4,7 @@ import "./App.css";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Home from "./components/Home/Home";
 import Courses from "./components/Courses/Courses";
+import Questions from "./components/Questions/Questions";
 import Exams from "./components/Exams/Exams";
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
         },
         {
           path: "questions",
-          element: <div>Hello Questions</div>,
+          element:<Questions />,
           errorElement: <ErrorPage />
         },
       ]

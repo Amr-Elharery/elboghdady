@@ -4,8 +4,22 @@ import {BsNewspaper} from "react-icons/bs";
 import {AiFillQuestionCircle} from 'react-icons/ai';
 
 import './Sidebar.css';
+import {useEffect} from "react";
 
 function Sidebar() {
+	useEffect(() => {
+		const homeLink = document.querySelector(".linksList a");
+		homeLink.classList.add("active");
+		const allLinks=document.querySelectorAll(".linksList a");
+		allLinks.forEach(link =>{
+			link.addEventListener('click', ()=>{
+				allLinks.forEach(l=>{
+					l.classList.remove("active");
+				})
+				link.classList.add("active");
+			})
+		})
+		}, []);
 	const links = [
 		"News",
 		"Courses",
@@ -27,7 +41,7 @@ function Sidebar() {
 							<li key={link}>
 								<Link
 									to={link.toLowerCase()}
-									className="c-white "
+									className="c-white"
 									>
 									<span className="hide-mobile">
 										{link}

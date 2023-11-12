@@ -120,10 +120,13 @@ aside {
 }
 
 .linksList li a:hover::before,
+.linksList li a.active::before,
+.linksList li a.active::after,
 .linksList li a:hover::after {
   background-color: #fff;
 }
-.linksList li a:hover {
+.linksList li a:hover,
+.linksList li a.active{
   background-color: #fff;
   color: var(--amr-primary);
 }
