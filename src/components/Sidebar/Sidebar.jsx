@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import { FaPen, FaUser, FaVideo} from 'react-icons/fa';
+import {BsNewspaper} from "react-icons/bs";
 import {AiFillQuestionCircle} from 'react-icons/ai';
 
 import './Sidebar.css';
-import UserImage from "../UserImage/UserImage";
-import {BsNewspaper} from "react-icons/bs";
 
 function Sidebar() {
 	const links = [
@@ -39,10 +38,10 @@ function Sidebar() {
 									:
 									link === "Courses" ?
 									<FaVideo />:
-									link === "Exams" ? 
+									link === "Exams" ?
 									<FaPen />:
 									<AiFillQuestionCircle />
-									
+
 								}
 
 								</Link>
@@ -52,9 +51,7 @@ function Sidebar() {
 				</ul>
 
 
-				<div className="img mb-10">
-						<UserImage />
-				</div>
+
   </aside>
   )
 }

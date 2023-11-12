@@ -8,7 +8,7 @@ export default function Home(){
 
     return (
         <div className={"elements-container"}>
-            <PageHeading text={"Latest New"} />
+            <PageHeading text={"Latest News"} />
 
             <div className={"news-holder"}>
                 {

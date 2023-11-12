@@ -46,6 +46,7 @@ img {
 
 ::-webkit-scrollbar {
   width: 8px;
+  background-color: #ddd;
 }
 ::-webkit-scrollbar-thumb {
   background-color: var(--amr-primary);
